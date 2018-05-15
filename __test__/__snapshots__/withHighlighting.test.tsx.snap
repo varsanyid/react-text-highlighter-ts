@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<Highlightable
+  highlight="like"
+  text="I would like to highlight"
+>
+  <HighlightableMockComponent
+    highlight="like"
+    text="I would <span style=\\"font-weight:bold\\">like</span> to highlight"
+  >
+    <div>
+      I would &lt;span style="font-weight:bold"&gt;like&lt;/span&gt; to highlight
+    </div>
+  </HighlightableMockComponent>
+</Highlightable>
+`;
